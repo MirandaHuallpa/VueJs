@@ -1,6 +1,7 @@
 # VueJs
 Curso iniciado con la plataforma Vue Mastery, dónde crearé formularios, typescript y proyectos.
 
+# Primer Lección
 En index.html agrego una imagen.
 
 ```
