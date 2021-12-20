@@ -13,7 +13,9 @@ En index.html agrego una imagen, info y un link.
   <h1>{{ product }}</h1>
   <a :href="link" target="_blank">More products like this</a>
 </div>
-
+```
+Dentro del body.
+```
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 <script src = "main.js"></script>
 ```
