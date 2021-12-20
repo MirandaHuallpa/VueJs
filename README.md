@@ -30,3 +30,5 @@ var app = new Vue ({
   }
 })
 ```
+<h2>Vista Previa </h2>
+<div align="center"><img src='assets/primer_leccion.png> </div>
