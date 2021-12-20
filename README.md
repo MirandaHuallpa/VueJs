@@ -2,11 +2,16 @@
 Curso iniciado con la plataforma Vue Mastery, dónde crearé formularios, typescript y proyectos.
 
 # Primer Lección
-En index.html agrego una imagen.
+En index.html agrego una imagen, info y un link.
 
 ```
 <div class="product-image">
   <img v-bind:src = "image">  
+</div>
+
+<div class="product-info">
+  <h1>{{ product }}</h1>
+  <a :href="link" target="_blank">More products like this</a>
 </div>
 ```
 
