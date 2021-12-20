@@ -1,12 +1,13 @@
 # VueJs
 Curso iniciado con la plataforma Vue Mastery, dónde crearé formularios, typescript y proyectos.
 
-<p>En index.html agrego una imagen.</p>
- ```
- <div class="product-image">
+En index.html agrego una imagen.
+
+´´´
+<div class="product-image">
   <img v-bind:src = "image">  
- </div>
- ´´´
+</div>
+```
 
 <p>En main.js:</p>
 
