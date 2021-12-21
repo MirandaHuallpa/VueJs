@@ -70,4 +70,11 @@ Class and style Bliding:
 
 Agregando estilo a "green" y "blue"
 
-<class = "color-box" :style = "{backgroundColor: variant.variantColor }">
+```
+<div v-for="variant in variants" 
+ :key="variant.variantId"
+ class="color-box"
+ :style="{ backgroundColor: variant.variantColor }"
+ @mouseover="updateProduct(variant.variantImage)">
+</di>
+```
